@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://wallpaperplay.com/walls/full/c/7/0/195311.jpg);
+  background-size: cover;
+  color: #2980b9;
+  text-align: center;
+}
+
+.top-wrapper h2{
+  opacity: 0,5;
+}
+
+.top-wrapper h1 {
+  opacity: 0,8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  background-color: white;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.numerouno {
+  background-color: #2c3e50;
+  margin-right: 10px;
+}
+
+.btn {
+  color: white;
+  display: inline-block;
+  opacity: 0.75;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  font-size: 14px;
+  height: 80px;
+  width: 100%;
+  background-color: #3498db;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 90px;
+  margin: 0;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-weight: bold;
+}
+
+.header-right a {
+  line-height: 80px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  color: #2c3e50;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.lesson-wrapper h2 {
+  color: #3498db;
+  font-weight: bold;
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+}
+
+.lesson p {
+  color: #3498db;
+}
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img {
+  width: 50%;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bolder;
+  color: #3498db;
+}
+
+.heading h3 {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.message-wrapper {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #fed330;
+  cursor: pointer;
+  box-shadow: 0 7px #f7b731;
+  font-weight: bolder;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+footer {
+  height: 200px;
+  padding-top: 30px;
+  background-color: #40739e;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-logo img {
+  width: 125px;
+}
+
+.footer-logo p {
+  color: white;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.footer-info {
+  float: right;
+}
+
+.footer-info p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-info a {
+  margin: 10px 0;
+  padding-right: 10px;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+}
